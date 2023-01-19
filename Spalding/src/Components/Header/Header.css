@@ -1,0 +1,46 @@
+.header-box {
+  background-color: #2c2c2c;
+  height: 68px;
+  justify-content: center;
+}
+
+.header-container {
+  width: 1132px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-box__log {
+  align-items: center;
+  gap: 45px;
+}
+.header-box__login {
+  justify-content: space-between;
+  align-items: center;
+  gap: 33px;
+}
+
+.flex {
+  display: flex;
+}
+
+.basket-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.main-logo {
+  width: 81px;
+  height: 33px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 33px;
+}

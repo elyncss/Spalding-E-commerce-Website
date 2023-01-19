@@ -1,0 +1,34 @@
+.navbar-img {
+  width: 100%;
+  height: 456px;
+}
+
+.navbar-img_content {
+  padding-top: 130px;
+  padding-left: 150px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 25px;
+  background-color: black;
+  height: 456px;
+  opacity: 75%;
+}
+
+.navbar-img_content > h1 {
+  color: #fff;
+}
+.navbar-img_content > p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.btn {
+  width: 172px;
+  height: 49px;
+  background-color: #ff591c;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+}

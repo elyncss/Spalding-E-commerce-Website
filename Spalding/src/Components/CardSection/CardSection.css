@@ -1,0 +1,21 @@
+.card-img {
+  height: 364px;
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 35px;
+}
+
+.card-img > h1 {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+.card-section {
+  width: 1132px;
+  margin-inline: auto;
+  justify-content: space-between;
+  margin-top: 36px;
+}
