@@ -1,0 +1,41 @@
+.special-background {
+  width: 1132px;
+  height: 267px;
+  margin-inline: auto;
+  margin-top: 70px;
+  display: flex;
+}
+
+.special-background > div {
+  align-self: center;
+  padding-left: 70px;
+}
+
+.special-background > div > h1 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.special-background > div > button {
+  width: 172px;
+  height: 49px;
+  background: transparent;
+  border: solid 2px #fff;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+.special-background > div > button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.special-background > img {
+  width: 344px;
+  height: 427px;
+  align-self: center;
+  justify-self: center;
+  margin-left: 110px;
+}
