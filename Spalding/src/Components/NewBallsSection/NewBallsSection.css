@@ -1,0 +1,19 @@
+.new-balls-section {
+  width: 1132px;
+  margin-inline: auto;
+  margin-top: 100px;
+}
+
+.balls-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: -50px;
+  z-index: -10;
+}
+
+.new-balls-section > a {
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 999;
+}
