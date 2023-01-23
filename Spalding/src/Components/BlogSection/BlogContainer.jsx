@@ -3,6 +3,7 @@ import BlogSection from "./BlogSection";
 import BlogImg from "../../../icons/blogimg1.png";
 import BlogImg2 from "../../../icons/BlogImg2.png";
 import BlogImg3 from "../../../icons/BlogImg3.png";
+import "./BlogSection.css";
 
 function BlogContainer() {
   return (

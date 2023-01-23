@@ -8,11 +8,11 @@
   display: flex;
   justify-content: center;
   gap: 25px;
-  z-index: -10;
 }
 
 .new-balls-section > a {
   text-decoration: none;
   cursor: pointer;
   z-index: 999;
+  position: relative;
 }

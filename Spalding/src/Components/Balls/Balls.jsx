@@ -40,7 +40,6 @@ function Balls() {
                 className="add-basket"
               />
             </a>
-            <div>Elxam</div>
           </div>
         </div>
       </div>
