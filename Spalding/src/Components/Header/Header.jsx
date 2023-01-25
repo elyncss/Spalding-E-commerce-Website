@@ -2,43 +2,44 @@ import React from "react";
 import LogoHeader from "../../../icons/Spalding_logo_logotype png-4.png";
 import BasketIcon from "../../../icons/basket-32.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header-box flex">
       <div className="header-container flex">
         <div className="header-box__log flex">
-          <a href="#">
+          <Link to="#">
             <img src={LogoHeader} className="main-logo" />
-          </a>
+          </Link>
           <ul className="flex">
             <li>
-              <a href="#">SHOP</a>
+              <Link to="/shop">SHOP</Link>
             </li>
             <li>
-              <a href="#">PRODUCTES</a>
+              <Link to="/productes">PRODUCTES</Link>
             </li>
             <li>
-              <a href="#">COSTOMIZE</a>
+              <Link to="#">COSTOMIZE</Link>
             </li>
 
             <li>
-              <a href="#">ABOUTE US</a>
+              <Link to="#">LinkBOUTE US</Link>
             </li>
           </ul>
         </div>
         <div className="header-box__login flex">
           <ul className="flex">
             <li>
-              <a href="#">LOG-IN</a>
+              <Link to="#">LOG-IN</Link>
             </li>
             <li>
-              <a href="#">REGISTER</a>
+              <Link to="#">REGISTER</Link>
             </li>
           </ul>
-          <a href="#">
+          <Link to="#">
             <img src={BasketIcon} className="basket-icon" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
